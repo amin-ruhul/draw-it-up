@@ -1,13 +1,10 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
-import Hint from "@/components/feedback/Hint";
+import Toolbar from "./_components/Toolbar";
 
 function EditorPage() {
   return (
-    <div className="m-8">
-      <Hint label="Hello world" align="center" side="right" sideOffset={10}>
-        <Button>+</Button>
-      </Hint>
+    <div className="p-8 bg-neutral-100 w-full h-screen relative">
+      <Toolbar />
     </div>
   );
 }

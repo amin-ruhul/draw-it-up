@@ -28,13 +28,13 @@ function Hint({
       <Tooltip delayDuration={100}>
         <TooltipTrigger asChild>{children}</TooltipTrigger>
         <TooltipContent
-          className="bg-slate-800 text-slate-300 p-2 rounded"
+          className="bg-slate-800 text-slate-300  rounded"
           side={side}
           align={align}
           alignOffset={alignOffset}
           sideOffset={sideOffset}
         >
-          <p className="font-semibold capitalize text-sm">{label}</p>
+          <p className="font-semibold capitalize text-sm px-2 py-1">{label}</p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>
