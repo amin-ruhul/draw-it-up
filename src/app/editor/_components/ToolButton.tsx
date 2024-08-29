@@ -20,13 +20,7 @@ function ToolButton({
   isDisable,
 }: ToolButtonProps) {
   return (
-    <Hint
-      label={label}
-      align="start"
-      side="right"
-      sideOffset={15}
-      alignOffset={-10}
-    >
+    <Hint label={label} align="start" side="right" sideOffset={15}>
       <Button
         disabled={isDisable}
         onClick={onClick}

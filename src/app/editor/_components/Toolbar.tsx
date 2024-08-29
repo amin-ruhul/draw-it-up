@@ -8,6 +8,7 @@ import {
   Square,
   Type,
   StickyNote,
+  Eraser,
 } from "lucide-react";
 
 function Toolbar() {
@@ -65,6 +66,15 @@ function Toolbar() {
         onClick={() => {}}
       >
         <Type />
+      </ToolButton>
+
+      <ToolButton
+        label="Erase"
+        isActive={false}
+        isDisable={false}
+        onClick={() => {}}
+      >
+        <Eraser />
       </ToolButton>
     </div>
   );
